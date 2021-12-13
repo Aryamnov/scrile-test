@@ -1,0 +1,10 @@
+.page {
+    font-family: 'NotoSansRegular',Arial,sans-serif;
+    font-weight: normal;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    min-width: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
