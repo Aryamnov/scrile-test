@@ -5,3 +5,5 @@
 @import url(./blocks/search/search.css);
 @import url(./blocks/search/__icon/search__icon.css);
 @import url(./blocks/search/__input/search__input.css);
+@import url(./blocks/result/result.css);
+@import url(./blocks/preloader/preloader.css);

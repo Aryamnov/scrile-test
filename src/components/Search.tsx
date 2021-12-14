@@ -8,7 +8,7 @@ export function Search (props: ISearchProps) {
   return (
     <section className="search">
       <img src={loupe} alt="search icon." className="search__icon" />
-      <input className="search__input"></input>
+      <input className="search__input" placeholder="Search"></input>
     </section>
   );
 }

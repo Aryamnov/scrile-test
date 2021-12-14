@@ -1,3 +1,17 @@
 .search__input {
-
+    padding: 0;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 16px;
+    line-height: 22px;
+    height: 22px;
+    margin-left: 20px;
+    width: calc(100% - 74px);
+    outline: none;
+    color: #000000;
 }
+
+.search__input::-webkit-input-placeholder { color: #CCC5C4 }
+.search__input:-moz-placeholder { color: #CCC5C4 }
+.search__input::-moz-placeholder { color: #CCC5C4 }
+.search__input:-ms-input-placeholder { color: #CCC5C4 }
