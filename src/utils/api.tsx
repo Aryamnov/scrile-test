@@ -22,3 +22,7 @@ export const getPhotos = () => {
     },
   }).then(handleResponse);
 };
+
+export const getAllinfo = () => {
+  return Promise.all([getUsers(), getPhotos()]);
+};
