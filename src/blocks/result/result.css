@@ -1,0 +1,8 @@
+.result {
+    height: 223px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 0;
+    width: calc(100% + 20px);
+    background-color: #FFFFFF;
+}

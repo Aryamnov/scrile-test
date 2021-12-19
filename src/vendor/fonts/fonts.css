@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'NotoSansRegular';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("NotoSansRegular.woff2") format('woff2'),
+       url("NotoSansRegular.woff") format('woff');
+}

@@ -1,0 +1,68 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.preloader {
+    animation: rotate 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    background: linear-gradient(#ff6647, #d6008f);
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+    position: relative;
+    top: 79px;
+    left: 135px;
+}
+
+.preloader::before,
+.preloader::after {
+    content: "";
+    position: absolute;
+}
+
+.preloader::before {
+    border-radius: 50%;
+    background: linear-gradient(
+        0deg,
+        hsla(0, 0%, 100%, 1) 50%,
+        hsla(0, 0%, 100%, 0.9) 100%
+    )
+    0% 0%,
+    linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 0.9) 0%,
+        hsla(0, 0%, 100%, 0.6) 100%
+    )
+    100% 0%,
+    linear-gradient(
+        180deg,
+        hsla(0, 0%, 100%, 0.6) 0%,
+        hsla(0, 0%, 100%, 0.3) 100%
+    )
+    100% 100%,
+    linear-gradient(
+        360deg,
+        hsla(0, 0%, 100%, 0.3) 0%,
+        hsla(0, 0%, 100%, 0) 100%
+    )
+    0% 100%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+}
+
+.preloader::after {
+  background: white;
+  border-radius: 50%;
+  top: 3%;
+  bottom: 3%;
+  left: 3%;
+  right: 3%;
+}

@@ -1,0 +1,9 @@
+.search {
+    height: 56px;
+    background-color: #F9F9F9;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+    box-sizing: border-box;
+}
